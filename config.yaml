@@ -1,0 +1,13 @@
+paths_to_watch:
+  - path: /home/user/my_path
+    extra_labels:
+      - name: my_custom_name
+        value: download
+      - name: my_other_custom_name
+        value: foo
+  - path: /home/user/my_other_path
+    extra_labels:
+      - name: my_custom_name
+        value: documents
+      - name: my_other_custom_name
+        value: foo
